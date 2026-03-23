@@ -1,0 +1,6 @@
+﻿model,n,r2,key_coef,p_value,significant,interpretation
+OLS cross-sectional,20,0.1969,4.9688,0.7302,False,Log STR count → €4.97 avg nightly price change per neighborhood
+First-differences OLS,84,0.6164,15.1642,0.0171,True,1 SD ↑ monthly STR growth → €15.16/month extra rent
+Panel FE (entity effects),85,0.9072,1.1382,0.0,True,+1 active STR listing → €1.14/month rent increase
+DiD (high vs low STR density),73,0.6688,-12.7621,0.5501,False,High-STR neighborhoods: €12.8/month extra rent post-2022
+Log-price OLS (room type × post),11874,0.0372,0.1511,0.0,True,Entire home × post-2022: +16.3% extra price premium

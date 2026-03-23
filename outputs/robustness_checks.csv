@@ -1,0 +1,7 @@
+﻿check,baseline_coef,robust_coef,p_value,stable
+Exclude COVID (Model 2),15.16,16.9204,0.0127,True
+3-month lagged STR growth,15.16,-2.2156,0.0989,True
+6-month lagged STR growth,15.16,0.0,0.3909,False
+Suburban rent as outcome,15.16,10.9052,0.008,True
+Exclude zero-review listings (Model 5),0.1511,0.1511,0.0,True
+BoA price index as outcome,15.16,0.4738,0.0649,True
