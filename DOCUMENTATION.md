@@ -241,6 +241,5 @@ the already-collected `data/raw/airbnb_tirana.csv` and skip Cell 4.
 
 ## Contact
 
-Rubens Qosja - rqosja04@gmail.com / rubensqosja@unyt.edu.al
-University of New York Tirana
+Rubens Qosja - rqosja04@gmail.com
 GitHub: github.com/Rubens778/airbnb-tirana-housing
