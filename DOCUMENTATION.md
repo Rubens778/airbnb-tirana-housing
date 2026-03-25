@@ -146,7 +146,7 @@ likely be significant.
 
 ---
 
-## Robustness checks — what they mean
+## Robustness checks; what they mean
 
 | Check | What I tested | Result | Meaning |
 |-------|---------------|--------|---------|
