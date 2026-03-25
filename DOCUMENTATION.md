@@ -32,8 +32,8 @@ Nothing has been changed, they are exactly as downloaded or scraped.
 | `numbeo_rents.csv` | Yearly average rent prices for Tirana 2015–2025 (1BD center, 1BD suburbs, 3BD center, 3BD suburbs) | Manually compiled from Numbeo historical data |
 | `bank_of_albania_index.csv` | Quarterly residential property price index 2015–2025, base=100 in Q1 2015 | From Bank of Albania Financial Stability Reports |
 | `instat_tourism.csv` | Monthly foreign visitor arrivals to Albania 2018–2025 | From INSTAT Albania tourism bulletins |
-| `str_timeseries_panel.csv` | 11,874 rows — each row is one listing in one month it was estimated to be active | Built from `airbnb_tirana.csv` using review archaeology (explained below) |
-| `monthly_str_aggregate.csv` | 85 rows — one per month, showing total active listings, avg price, avg rating | Aggregated from `str_timeseries_panel.csv` |
+| `str_timeseries_panel.csv` | 11,874 rows, each row is one listing in one month it was estimated to be active | Built from `airbnb_tirana.csv` using review archaeology (explained below) |
+| `monthly_str_aggregate.csv` | 85 rows, one per month, showing total active listings, avg price, avg rating | Aggregated from `str_timeseries_panel.csv` |
 
 ### data/processed/
 These are cleaned and enriched versions of the raw files, ready for modelling.
@@ -42,7 +42,7 @@ These are cleaned and enriched versions of the raw files, ready for modelling.
 |------|-----------|----------------------|
 | `airbnb_clean.csv` | 661 Airbnb listings, fully cleaned | Removed name/url/snapshot_month columns, fixed placeholder ratings (4.92 on zero-review listings set to NaN), imputed missing values, removed coordinate outliers |
 | `main_panel.csv` | 85 monthly rows with all variables merged | Joined STR counts with Numbeo rents, Bank of Albania index, Google Trends, INSTAT tourism |
-| `neighborhood_features.csv` | 20 rows — one per Tirana neighborhood | Aggregated from listings: STR count, avg price, entire-home share, distance to center |
+| `neighborhood_features.csv` | 20 rows, one per Tirana neighborhood | Aggregated from listings: STR count, avg price, entire-home share, distance to center |
 
 ### notebooks/
 | File | What it does |
