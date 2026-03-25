@@ -73,8 +73,7 @@ No API keys required. Runtime approximately 15 minutes.
 ---
 
 ## Citation
-author = Your Name,
-title  = Short-Term Rental Platforms and Housing Affordability
+author = Rubens Qosja,
 in Tirana, Albania,
 note   = Working Paper,
 year   = 2026
