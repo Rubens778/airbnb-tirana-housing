@@ -4,7 +4,7 @@ This documentation server the purpose of an easier explanation of my project
 ---
 
 ## What this project is about
-
+Taken in consideration that study is done via a sample of Airbnb listing,not the full number of Airbnb listings in Albania. A sample of them is used for study
 Airbnb has grown explosively in Tirana. Between 2018 and 2025,
 active listings grew from roughly 45 to over 500. Over the same period,
 1-bedroom apartment rents in Tirana's center rose from €235/month to
